@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Robo directory</title>
+  <style type="text/css">
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div>
+        {{#data}}
+            <div>{{id}}</div>
+            <div>{{username}}</div>
+            <div>{{name}}</div>
+            <img src={{avatar}}>
+        {{/data}}
+      </div>
+      <div>
+      {{#otherdata}}
+        <div>{{name}}</div>
+        <div>{{email}}</div>
+        <div>{{university}}</div>
+        <div>{{job}}</div>
+        <div>{{company}}</div>
+      {{/otherdata}}
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<!-- Latest compiled and minified JavaScript -->
